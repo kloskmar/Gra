@@ -363,32 +363,290 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-          
+            for (int i = 6; i <= 30; i+=6)
+            {
+                if (arr[i - 6] == 1)
+                {
+                    panel[i + 1].BackColor = Color.Orange;
+                }
+                if (arr[i - 6] == 2)
+                {
+                    panel[i + 1].BackColor = Color.Green;
+                }
+                if (arr[i - 6] == 3)
+                {
+                    panel[i + 1].BackColor = Color.Blue;
+                }
+                if (arr[i - 6] == 0)
+                {
+                    panel[i + 1].BackColor = Color.White;
+                }
+            }
+            if (arr[30] == 1)
+            {
+                panel[1].BackColor = Color.Orange;
+            }
+            if (arr[30] == 2)
+            {
+                panel[1].BackColor = Color.Green;
+            }
+            if (arr[30] == 3)
+            {
+                panel[1].BackColor = Color.Blue;
+            }
+            if (arr[30] == 0)
+            {
+                panel[1].BackColor = Color.White;
+            }
+            for (int i = 6; i <= 30; i+=6)
+            {
+                arr[i] = brr[i - 6];
+            }
+            arr[0] = brr[30];
+            for (int i = 0; i <= 30; i+=6)
+            {
+                brr[i] = arr[i];
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            for (int i = 7; i <= 31; i += 6)
+            {
+                if (arr[i - 6] == 1)
+                {
+                    panel[i + 1].BackColor = Color.Orange;
+                }
+                if (arr[i - 6] == 2)
+                {
+                    panel[i + 1].BackColor = Color.Green;
+                }
+                if (arr[i - 6] == 3)
+                {
+                    panel[i + 1].BackColor = Color.Blue;
+                }
+                if (arr[i - 6] == 0)
+                {
+                    panel[i + 1].BackColor = Color.White;
+                }
+            }
+            if (arr[31] == 1)
+            {
+                panel[2].BackColor = Color.Orange;
+            }
+            if (arr[31] == 2)
+            {
+                panel[2].BackColor = Color.Green;
+            }
+            if (arr[31] == 3)
+            {
+                panel[2].BackColor = Color.Blue;
+            }
+            if (arr[31] == 0)
+            {
+                panel[2].BackColor = Color.White;
+            }
+            for (int i = 7; i <= 31; i += 6)
+            {
+                arr[i] = brr[i - 6];
+            }
+            arr[1] = brr[31];
+            for (int i = 1; i <= 31; i += 6)
+            {
+                brr[i] = arr[i];
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            for (int i = 8; i <= 32; i += 6)
+            {
+                if (arr[i - 6] == 1)
+                {
+                    panel[i + 1].BackColor = Color.Orange;
+                }
+                if (arr[i - 6] == 2)
+                {
+                    panel[i + 1].BackColor = Color.Green;
+                }
+                if (arr[i - 6] == 3)
+                {
+                    panel[i + 1].BackColor = Color.Blue;
+                }
+                if (arr[i - 6] == 0)
+                {
+                    panel[i + 1].BackColor = Color.White;
+                }
+            }
+            if (arr[32] == 1)
+            {
+                panel[3].BackColor = Color.Orange;
+            }
+            if (arr[32] == 2)
+            {
+                panel[3].BackColor = Color.Green;
+            }
+            if (arr[32] == 3)
+            {
+                panel[3].BackColor = Color.Blue;
+            }
+            if (arr[32] == 0)
+            {
+                panel[3].BackColor = Color.White;
+            }
+            for (int i = 8; i <= 32; i += 6)
+            {
+                arr[i] = brr[i - 6];
+            }
+            arr[2] = brr[32];
+            for (int i = 2; i <= 32; i += 6)
+            {
+                brr[i] = arr[i];
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            for (int i = 9; i <= 33; i += 6)
+            {
+                if (arr[i - 6] == 1)
+                {
+                    panel[i + 1].BackColor = Color.Orange;
+                }
+                if (arr[i - 6] == 2)
+                {
+                    panel[i + 1].BackColor = Color.Green;
+                }
+                if (arr[i - 6] == 3)
+                {
+                    panel[i + 1].BackColor = Color.Blue;
+                }
+                if (arr[i - 6] == 0)
+                {
+                    panel[i + 1].BackColor = Color.White;
+                }
+            }
+            if (arr[33] == 1)
+            {
+                panel[4].BackColor = Color.Orange;
+            }
+            if (arr[33] == 2)
+            {
+                panel[4].BackColor = Color.Green;
+            }
+            if (arr[33] == 3)
+            {
+                panel[4].BackColor = Color.Blue;
+            }
+            if (arr[33] == 0)
+            {
+                panel[4].BackColor = Color.White;
+            }
+            for (int i = 9; i <= 33; i += 6)
+            {
+                arr[i] = brr[i - 6];
+            }
+            arr[3] = brr[33];
+            for (int i = 3; i <= 33; i += 6)
+            {
+                brr[i] = arr[i];
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            for (int i = 10; i <= 34; i += 6)
+            {
+                if (arr[i - 6] == 1)
+                {
+                    panel[i + 1].BackColor = Color.Orange;
+                }
+                if (arr[i - 6] == 2)
+                {
+                    panel[i + 1].BackColor = Color.Green;
+                }
+                if (arr[i - 6] == 3)
+                {
+                    panel[i + 1].BackColor = Color.Blue;
+                }
+                if (arr[i - 6] == 0)
+                {
+                    panel[i + 1].BackColor = Color.White;
+                }
+            }
+            if (arr[34] == 1)
+            {
+                panel[5].BackColor = Color.Orange;
+            }
+            if (arr[34] == 2)
+            {
+                panel[5].BackColor = Color.Green;
+            }
+            if (arr[34] == 3)
+            {
+                panel[5].BackColor = Color.Blue;
+            }
+            if (arr[34] == 0)
+            {
+                panel[5].BackColor = Color.White;
+            }
+            for (int i = 10; i <= 34; i += 6)
+            {
+                arr[i] = brr[i - 6];
+            }
+            arr[4] = brr[34];
+            for (int i = 4; i <= 34; i += 6)
+            {
+                brr[i] = arr[i];
+            }
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            for (int i = 11; i <= 35; i += 6)
+            {
+                if (arr[i - 6] == 1)
+                {
+                    panel[i + 1].BackColor = Color.Orange;
+                }
+                if (arr[i - 6] == 2)
+                {
+                    panel[i + 1].BackColor = Color.Green;
+                }
+                if (arr[i - 6] == 3)
+                {
+                    panel[i + 1].BackColor = Color.Blue;
+                }
+                if (arr[i - 6] == 0)
+                {
+                    panel[i + 1].BackColor = Color.White;
+                }
+            }
+            if (arr[35] == 1)
+            {
+                panel[6].BackColor = Color.Orange;
+            }
+            if (arr[35] == 2)
+            {
+                panel[6].BackColor = Color.Green;
+            }
+            if (arr[35] == 3)
+            {
+                panel[6].BackColor = Color.Blue;
+            }
+            if (arr[35] == 0)
+            {
+                panel[6].BackColor = Color.White;
+            }
+            for (int i = 11; i <= 35; i += 6)
+            {
+                arr[i] = brr[i - 6];
+            }
+            arr[5] = brr[35];
+            for (int i = 5; i <= 35; i += 6)
+            {
+                brr[i] = arr[i];
+            }
         }
 
         private void Start_Click(object sender, EventArgs e)
