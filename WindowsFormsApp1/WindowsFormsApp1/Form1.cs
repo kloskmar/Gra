@@ -71,14 +71,7 @@ namespace WindowsFormsApp1
 
         private void buttona_Click(object sender, EventArgs e)
         {
-            if (arr[0]==0)
-            {
-                a1.BackColor = Color.Black;
-            }
-            else
-            {
-                a1.BackColor = Color.Red;
-            }
+            
         }
         private void buttonb_Click(object sender, EventArgs e)
         {
@@ -138,18 +131,31 @@ namespace WindowsFormsApp1
         private void Start_Click(object sender, EventArgs e)
         {
             arr = arr.OrderBy(c => random.Next()).ToArray();
-            for (int i = 0; i <= 34; i++)
+            for (int i = 0; i <= 35; i++)
             {
                 if (arr[i] == 1)
                 {
                     panel[i+1].BackColor = Color.Orange;
                 }
+                if (arr[i] == 2)
+                {
+                    panel[i + 1].BackColor = Color.Green;
+                }
+                if (arr[i] == 3)
+                {
+                    panel[i + 1].BackColor = Color.Blue;
+                }
+                if (arr[i] == 0)
+                {
+                    panel[i + 1].BackColor = Color.White;
+                }
+
             }
             if (arr[1]==2)
             {
                 panel[1].BackColor = Color.Blue;
             }
-            panel[2].BackColor = Color.Blue;
+            
 
 
         }
