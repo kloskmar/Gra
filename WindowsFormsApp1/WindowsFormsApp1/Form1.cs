@@ -8,18 +8,31 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace WindowsFormsApp1
 {
+   
     public partial class Form1 : Form
     {
+        Random random = new Random();
+        int[] arr = Enumerable.Range(0, 35).ToArray();
+
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void buttona_Click(object sender, EventArgs e)
         {
-
+            if (arr[0]==0)
+            {
+                a1.BackColor = Color.Black;
+            }
+            else
+            {
+                a1.BackColor = Color.Red;
+            }
         }
         private void buttonb_Click(object sender, EventArgs e)
         {
@@ -74,6 +87,11 @@ namespace WindowsFormsApp1
         private void button6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Start_Click(object sender, EventArgs e)
+        {
+            arr = arr.OrderBy(c => random.Next()).ToArray();
         }
     }
 

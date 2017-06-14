@@ -81,6 +81,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.Start = new System.Windows.Forms.Button();
             this.b5.SuspendLayout();
             this.c4.SuspendLayout();
             this.d1.SuspendLayout();
@@ -500,11 +501,22 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // Start
+            // 
+            this.Start.Location = new System.Drawing.Point(250, 34);
+            this.Start.Name = "Start";
+            this.Start.Size = new System.Drawing.Size(75, 23);
+            this.Start.TabIndex = 40;
+            this.Start.Text = "Start";
+            this.Start.UseVisualStyleBackColor = true;
+            this.Start.Click += new System.EventHandler(this.Start_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(556, 553);
+            this.Controls.Add(this.Start);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -619,6 +631,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button Start;
     }
 }
 
