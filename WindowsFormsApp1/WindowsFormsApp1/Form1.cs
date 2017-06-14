@@ -67,7 +67,31 @@ namespace WindowsFormsApp1
             {
                 arr[i] = arr[i] % 4;
             }
-            
+            for (int i = 0; i <= 35; i++)
+            {
+                if (arr[i] == 1)
+                {
+                    panel[i + 1].BackColor = Color.Orange;
+                }
+                if (arr[i] == 2)
+                {
+                    panel[i + 1].BackColor = Color.Green;
+                }
+                if (arr[i] == 3)
+                {
+                    panel[i + 1].BackColor = Color.Blue;
+                }
+                if (arr[i] == 0)
+                {
+                    panel[i + 1].BackColor = Color.White;
+                }
+
+            }
+            for (int i = 0; i <= 35; i++)
+            {
+                brr[i] = arr[i];
+            }
+
         }
 
         private void buttona_Click(object sender, EventArgs e)
