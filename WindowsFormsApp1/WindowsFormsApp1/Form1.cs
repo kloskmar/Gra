@@ -63,7 +63,7 @@ namespace WindowsFormsApp1
             panel[35] = f5;
             panel[36] = f6;
 
-            for (int i=0; i <= 34; i++)
+            for (int i=0; i <= 35; i++)
             {
                 arr[i] = arr[i] % 4;
             }
@@ -116,7 +116,11 @@ namespace WindowsFormsApp1
             {
                 brr[i] = arr[i];
                     }
+            if (arr[0] == arr[1] && arr[1] == arr[2] && arr[2] == arr[6] && arr[6] == arr[7] && arr[7] == arr[8] && arr[8] == arr[12] && arr[12] == arr[13] && arr[13] == arr[14] && arr[3] == arr[4] && arr[4] == arr[5] && arr[5] == arr[9] && arr[9] == arr[10] && arr[10] == arr[11] && arr[11] == arr[15] && arr[15] == arr[16] && arr[16] == arr[17] && arr[18] == arr[19] && arr[19] == arr[20] && arr[20] == arr[24] && arr[24] == arr[25] && arr[25] == arr[26] && arr[26] == arr[30] && arr[30] == arr[31] && arr[31] == arr[32] && arr[21] == arr[22] && arr[22] == arr[23] && arr[23] == arr[27] && arr[27] == arr[28] && arr[28] == arr[29] && arr[29] == arr[33] && arr[33] == arr[34] && arr[34] == arr[35]) 
+            {
+                MessageBox.Show("Wygrales!");
 
+            }
         }
         private void buttonb_Click(object sender, EventArgs e)
         {
