@@ -17,9 +17,63 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
+        private void buttona_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void buttonb_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonc_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttond_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttone_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonf_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            p1.BackColor = Color.Black;
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 
